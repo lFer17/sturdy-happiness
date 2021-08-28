@@ -1,0 +1,45 @@
+.btnNav{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: rgb(27, 110, 106);
+    position: absolute;
+    left:0;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    z-index: 6;
+    font-size: 25px;
+    cursor: pointer;
+}
+.nav{
+    background-color: rgba(32, 178, 171, 0.884);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 180px;
+}
+
+.nav .navHide{
+    left:-180px;
+}
+
+.nav .navCont{
+    padding: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav .navItems{
+    color:whitesmoke;
+    padding: 10px;
+    list-style: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}

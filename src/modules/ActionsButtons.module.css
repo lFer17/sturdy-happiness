@@ -1,0 +1,27 @@
+
+.container{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5px;
+    gap:5px;
+}
+.group_btn{
+    background-color: rgba(32, 178, 171, 0.658);
+    cursor: pointer;
+    font-size: larger;
+    height: 20px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    border: none;
+    outline: none;
+    border-radius: 5px;   
+}
+@media print{
+    .container{display:none;}
+  }
